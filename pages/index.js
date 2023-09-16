@@ -1,24 +1,22 @@
-import { useState } from "react";
-import products from '../public/products';
-import User from "./user";
-
+import Link from 'next/link'
+import styles from '../styles/product.module.css'
 
 export default function Home() {
-   const [productsValue, updateProduct] = useState(products);  
-
-  const addProduct = () => {
-    updateProduct([
-      ...productsValue,
-      {
-        id: 3,
-        name: 'xyz'
-      },
-    ]);
-  };
   return (
-    <>
-      <User></User>     
-      
-    </>
+    <ul className={styles.addProduct}>
+      <li className={styles.customMargin}>
+        <Link href="/welcome">Home</Link>
+      </li>
+      <li className={styles.customMargin}>
+        <Link href="/user">Users</Link>
+      </li>
+      <li className={styles.customMargin}>
+        <Link href="/productList">Products</Link>
+      </li>
+      <li className={styles.customMargin}>
+        <Link href="/product">Add Product</Link>
+      </li>
+    </ul>
   )
 }
+

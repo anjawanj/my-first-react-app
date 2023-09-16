@@ -1,11 +1,20 @@
 [
     {
-        "id": "1",
-        "name": "abc"
+        "name": "FairFax-1",
+        "manufactureDate": "12-10-2020",
+        "expiryDate": "12-10-2028",
+        "price": "120.90",
+        "type": "paper",
+        "isActive": "true"
+
     },
     {
-        "id": "2",
-        "name": "pqr"
-    }
+        "name": "Pine-Mountain-400",
+        "manufactureDate": "12-10-2020",
+        "expiryDate": "12-10-2028",
+        "price": "12000",
+        "type": "folder",
+        "isActive": "true"
 
+    }
 ]

@@ -1,0 +1,47 @@
+.addProduct {
+  text-align: left;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: black;
+  padding-left: 50px;
+  background-color: white;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.addProductLabel {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.addProductInput {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.addProductButton {
+  border: cadetblue;
+  padding: 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.customMargin {
+  margin-right: 20px 
+}
